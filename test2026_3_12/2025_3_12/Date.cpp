@@ -87,20 +87,29 @@ Date& Date::operator+=(int day)
 
 Date Date::operator+(int day)const
 {
-
+	Date tmp = *this;
+	tmp += day;
+	return tmp;
 }
 
 
 
 // 日期-天数
 
-Date operator-(int day)const;
+Date Date::operator-(int day)const
+{
+	Date tmp = *this;
+	this
+}
 
 
 
 // 日期-=天数
 
-Date& operator-=(int day);
+Date& Date::operator-=(int day)
+{
+
+}
 
 
 
