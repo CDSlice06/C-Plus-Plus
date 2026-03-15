@@ -1,7 +1,14 @@
 #include"Date.h"
 bool Date::CheckDate()const
 {
-
+	if (_month > 12 || _month < 1 || _day<1 || _day>GetMonthDay(_year, _month))
+	{
+		return false;
+	}
+	else
+	{
+		return true;
+	}
 }
 
 //打印年月日
@@ -99,7 +106,8 @@ Date Date::operator+(int day)const
 Date Date::operator-(int day)const
 {
 	Date tmp = *this;
-	this
+	tmp -= day;
+	return tmp;
 }
 
 
@@ -108,83 +116,187 @@ Date Date::operator-(int day)const
 
 Date& Date::operator-=(int day)
 {
-
+	if (day < 0)
+	{
+		return *this += (-day);
+	}
+	_day -= day;
+	while (_day<0)
+	{
+		_month--;
+		if (_month == 0)
+		{
+			_month = 12;
+			--_year;
+		}
+		_day += GetMonthDay(_year,_month);
+	}
+	return *this;
 }
 
 
 
 // 前置++
 
-Date& operator++();
+Date& Date::operator++()
+{
+	*this += 1;
+	return *this;
+}
 
 
 
 // 后置++
 
-Date operator++(int);
+Date Date::operator++(int)
+{
+	Date tmp = *this;
+	++*this;
+	return tmp;
+}
 
 
 
 // 后置--
 
-Date operator--(int);
+Date Date::operator--(int)
+{
+	Date tmp = *this;
+	*this -= 1;
+	return tmp;
+}
 
 
 
 // 前置--
 
-Date& operator--();
-
+Date& Date::operator--()
+{
+	(*this)--;
+	return *this;
+}
 
 
 // >运算符重载
 
-bool operator>(const Date& d)const;
+bool Date::operator>(const Date& d)const
+{
+	if (_year > d . _year)
+	{
+		return true;
+	}
+	else if (_year == d._year)
+	{
+		if (_month > d._month)
+		{
+			return true;
+		}
+		else if (_month == d._month)
+		{
+			if (_day > d._day)
+			{
+				return true;
+			}
+		}
+	}
+	return false;
+}
 
 
 
 // ==运算符重载
 
-bool operator==(const Date& d)const;
+bool Date::operator==(const Date& d)const
+{
+	return _year == d._year && _month == d._month && _day == d._day;
+}
 
 
 
 // >=运算符重载
 
-bool operator >= (const Date& d)const;
+bool Date::operator >= (const Date& d)const
+{
+	return *this > d && *this == d;
+}
 
 
 
 // <运算符重载
 
-bool operator < (const Date& d)const;
+bool Date::operator < (const Date& d)const
+{
+	return !(*this >= d);
+}
 
 
 
 // <=运算符重载
 
-bool operator <= (const Date& d)const;
+bool Date::operator <= (const Date& d)const
+{
+	return !(*this > d);
+}
 
 
 
 // !=运算符重载
 
-bool operator != (const Date& d)const;
+bool Date::operator != (const Date& d)const
+{
+	return !(*this == d);
+}
+
 
 
 
 // 日期-日期 返回天数
 
-int operator-(const Date& d)const;
+int Date::operator-(const Date& d)const
+{
+	int flag = 1;
+	Date max, min;
+	max = *this;
+	min = d;
+	if (*this < d)
+	{
+		max = d;
+		min = *this;
+		flag = -1;
+	}
+	int n = 0;
+	while (min != max)
+	{
+		min++;
+		n++;
+	}
+	return n * flag;
+}
 
-private:
 
-	int _year;
+ostream& operator<<(ostream& out, const Date& d)
+{
+	out << d._year << "年" << d._month << "月" << d._day << "日" << endl;
+	return out;
+}
+istream& operator>>(istream& in, Date& d)
+{
+	while (1)
+	{
+		cout << "请依次输入年月日:>";
+		in >> d._year >> d._month >> d._day;
 
-	int _month;
+		if (!d.CheckDate())
+		{
+			cout << "输入日期非法:";
+			d.Print();
+			cout << "请重新输入!!!" << endl;
+		}
+		else
+		{
+			break;
+		}
+	}
 
-	int _day;
-
-};
-ostream& operator<<(ostream& out, const Date& d);
-istream& operator>>(istream& in, Date& d);
+	return in;
+}

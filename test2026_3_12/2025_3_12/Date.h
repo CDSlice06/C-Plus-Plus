@@ -8,7 +8,8 @@ class Date
 
 public:
 
-	
+	friend ostream& operator<<(ostream& out, const Date& d);
+	friend istream& operator>>(istream& in, Date& d);
 	//日期检查
 	//声明一个不会修改对象任何成员变量的成员函数，既保护了对象，又能被 const 对象调用
 	//在函数后面加const,承诺不修改当前对象
