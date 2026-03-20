@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u90ED\u4EAE\u4EAE\\Desktop\\C\u8BED\u8A00\\C\u002B\u002B\\c-plus-plus\\3_20\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7155D0F2-E1EB-421E-93E4-81E70389110B}|3_20\\3_20.vcxproj|C:\\Users\\\u90ED\u4EAE\u4EAE\\Desktop\\C\u8BED\u8A00\\C\u002B\u002B\\c-plus-plus\\3_20\\3_20\\practice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7155D0F2-E1EB-421E-93E4-81E70389110B}|3_20\\3_20.vcxproj|solutionrelative:3_20\\practice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "practice.cpp",
+              "DocumentMoniker": "C:\\Users\\\u90ED\u4EAE\u4EAE\\Desktop\\C\u8BED\u8A00\\C\u002B\u002B\\c-plus-plus\\3_20\\3_20\\practice.cpp",
+              "RelativeDocumentMoniker": "3_20\\practice.cpp",
+              "ToolTip": "C:\\Users\\\u90ED\u4EAE\u4EAE\\Desktop\\C\u8BED\u8A00\\C\u002B\u002B\\c-plus-plus\\3_20\\3_20\\practice.cpp*",
+              "RelativeToolTip": "3_20\\practice.cpp*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-20T10:56:54.156Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
