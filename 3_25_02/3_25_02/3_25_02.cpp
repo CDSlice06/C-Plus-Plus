@@ -49,14 +49,29 @@ void input()
     }
     for (int i = 0; i < n; i++)
     {
-        if (q[i].month < 10)
-            cout << q[i].year << '-' << '0' << q[i].month << '-' << q[i].day << endl;
-        if (q[i].month >= 10)
+        if (q[i].month > 9 && q[i].day > 9)
+        {
             cout << q[i].year << '-' << q[i].month << '-' << q[i].day << endl;
-        if (q[i].day < 10)
-            cout << q[i].year << '-'<<q[i].month << '-' << '0' << q[i].day << endl;
+            continue;
+        }
         if (q[i].month < 10 && q[i].day < 10)
+        {
             cout << q[i].year << '-' << '0' << q[i].month << '-' << '0' << q[i].day << endl;
+            continue;
+        }
+
+        if (q[i].month < 10)
+        {
+            cout << q[i].year << '-' << '0' << q[i].month << '-' << q[i].day << endl;
+            continue;
+        }
+
+        if (q[i].day < 10)
+        {
+            cout << q[i].year << '-' << q[i].month << '-' << '0' << q[i].day << endl;
+            continue;
+        }
+
     }
     delete[] p;
     delete[] q;
