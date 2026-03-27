@@ -15,7 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3_26_02.cpp">
+    <ClInclude Include="string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="string.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
