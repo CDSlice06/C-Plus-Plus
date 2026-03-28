@@ -1,16 +1,17 @@
 #pragma once
+#define _CRT_SECURE_NO_WARNINGS 1
 #include<iostream>
 #include<string>
 #include<assert.h>
 using namespace std;
 namespace CD
 {
-
+   
     class string
-
+        
     {
     public:
-
+        friend ostream& operator<<(ostream& out, const string& s);
         typedef char* iterator;
 
     public:
@@ -150,7 +151,8 @@ namespace CD
         // 删除pos位置上的元素，并返回该元素的下一个位置
 
         string& erase(size_t pos, size_t len);
-
+        static const size_t npos;
+        string substr(size_t pos, size_t len);
     private:
 
         size_t _size;
@@ -160,7 +162,9 @@ namespace CD
         char* _str;
 
     };
+   
   
+    void swap(string& a, string& b);
     //relational operators
 
     bool operator<(const string& s1, const string& s2);
