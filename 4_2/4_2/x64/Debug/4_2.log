@@ -1,0 +1,4 @@
+﻿  4_2.cpp
+C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\4_2\4_2\4_2.cpp(33,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\4_2\4_2\4_2.cpp(47,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  4_2.vcxproj -> C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\4_2\x64\Debug\4_2.exe
