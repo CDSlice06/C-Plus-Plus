@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u90ED\u4EAE\u4EAE\\Desktop\\C\u8BED\u8A00\\C\u002B\u002B\\c-plus-plus\\4_13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3020449-F9DC-47F6-A366-6E74C5459306}|4_13\\4_13.vcxproj|C:\\Users\\\u90ED\u4EAE\u4EAE\\Desktop\\C\u8BED\u8A00\\C\u002B\u002B\\c-plus-plus\\4_13\\4_13\\4_13.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E3020449-F9DC-47F6-A366-6E74C5459306}|4_13\\4_13.vcxproj|solutionrelative:4_13\\4_13.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "4_13.cpp",
+              "DocumentMoniker": "C:\\Users\\\u90ED\u4EAE\u4EAE\\Desktop\\C\u8BED\u8A00\\C\u002B\u002B\\c-plus-plus\\4_13\\4_13\\4_13.cpp",
+              "RelativeDocumentMoniker": "4_13\\4_13.cpp",
+              "ToolTip": "C:\\Users\\\u90ED\u4EAE\u4EAE\\Desktop\\C\u8BED\u8A00\\C\u002B\u002B\\c-plus-plus\\4_13\\4_13\\4_13.cpp",
+              "RelativeToolTip": "4_13\\4_13.cpp",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-13T11:54:25.834Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
