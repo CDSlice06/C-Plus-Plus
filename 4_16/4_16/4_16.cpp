@@ -1,10 +1,11 @@
 #include<iostream>
-#include<vecotr>
+#include<vector>
 using namespace std;
 int compare(int a, int b)
 {
     return a > b ? b : a;
 }
+//方法一
 class Solution {
 public:
     int maxArea(vector<int>& height) {
@@ -27,5 +28,22 @@ public:
                 max = tmp;
         }
         return max;
+    }
+};
+//优化,调用库里的比较大小
+class Solution {
+public:
+    int maxArea(vector<int>& height) {
+        int left = 0, right = height.size() - 1, tmp = 0;
+        while (left < right)
+        {
+            int maxi = min(height[left], height[right]) * (right - left);
+            tmp = max(tmp, maxi);
+            if (height[left] < height[right])
+                left++;
+            else
+                right--;
+        }
+        return tmp;
     }
 };
