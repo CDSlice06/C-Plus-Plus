@@ -25,3 +25,28 @@ public:
         return sum;
     }
 };
+
+//”≈ªØ
+class Solution {
+public:
+    int triangleNumber(vector<int>& nums) {
+        sort(nums.begin(), nums.end());
+        int left, right;
+        int sum = 0;
+        for (int i = 2; i < nums.size(); i++)
+        {
+            left = 0, right = nums.size() - i;
+            while (left < right)
+            {
+                if (nums[left] + nums[right] > nums[right + 1])
+                {
+                    sum += right - left;
+                    right--;
+                }
+                else left++;
+            }
+        }
+        return sum;
+    }
+};
+
