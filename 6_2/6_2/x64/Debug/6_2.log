@@ -1,0 +1,8 @@
+﻿  6_2.cpp
+C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\6_2\6_2\6_2.cpp(69,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\6_2\6_2\6_2.cpp(74,28): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\6_2\6_2\6_2.cpp(74,28): warning C4267:         with
+C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\6_2\6_2\6_2.cpp(74,28): warning C4267:         [
+C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\6_2\6_2\6_2.cpp(74,28): warning C4267:             _Ty=int
+C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\6_2\6_2\6_2.cpp(74,28): warning C4267:         ]
+  6_2.vcxproj -> C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\6_2\x64\Debug\6_2.exe
