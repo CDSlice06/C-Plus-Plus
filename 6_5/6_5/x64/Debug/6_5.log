@@ -1,0 +1,185 @@
+﻿  ForestIceFire.cpp
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(79,17): error C2065: “MAX_MAP_H”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(80,12): error C2079: “Player::LevelData::GameData::ice”使用未定义的 struct“Player”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(81,12): error C2079: “Player::LevelData::GameData::fire”使用未定义的 struct“Player”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(90,20): error C2864: Player::LevelData::GameData::L1_MAP: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(90,31):
+      类型为“const char *[]”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(107,20): error C2864: Player::LevelData::GameData::L2_MAP: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(107,31):
+      类型为“const char *[]”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(125,20): error C2864: Player::LevelData::GameData::L3_MAP: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(125,31):
+      类型为“const char *[]”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(145,20): error C2864: Player::LevelData::GameData::L4_MAP: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(145,31):
+      类型为“const char *[]”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(167,20): error C2864: Player::LevelData::GameData::L5_MAP: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(167,31):
+      类型为“const char *[]”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(191,18): error C2864: Player::LevelData::GameData::g_levels: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(191,31):
+      类型为“Player::LevelData []”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(202,20): error C2864: Player::LevelData::GameData::g_fontUI: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(202,35):
+      类型为“HFONT”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(203,20): error C2864: Player::LevelData::GameData::g_fontBig: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(203,35):
+      类型为“HFONT”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(204,20): error C2864: Player::LevelData::GameData::g_fontTiny: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(204,35):
+      类型为“HFONT”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(205,20): error C2864: Player::LevelData::GameData::g_brWall: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(205,35):
+      类型为“HBRUSH”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(206,20): error C2864: Player::LevelData::GameData::g_brWater: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(206,35):
+      类型为“HBRUSH”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(207,20): error C2864: Player::LevelData::GameData::g_brLava: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(207,35):
+      类型为“HBRUSH”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(208,20): error C2864: Player::LevelData::GameData::g_brExit: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(208,35):
+      类型为“HBRUSH”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(209,20): error C2864: Player::LevelData::GameData::g_brIceDia: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(209,35):
+      类型为“HBRUSH”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(210,20): error C2864: Player::LevelData::GameData::g_brFireDia: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(210,35):
+      类型为“HBRUSH”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(211,20): error C2864: Player::LevelData::GameData::g_brBg: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(211,35):
+      类型为“HBRUSH”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(212,20): error C2864: Player::LevelData::GameData::g_penWall: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(212,35):
+      类型为“HPEN”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(213,20): error C2864: Player::LevelData::GameData::g_penWallHL: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(213,35):
+      类型为“HPEN”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(214,20): error C2864: Player::LevelData::GameData::g_penWater: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(214,35):
+      类型为“HPEN”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(215,20): error C2864: Player::LevelData::GameData::g_penWhite: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(215,35):
+      类型为“HPEN”
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(232,6): error C2535: “bool Player::LevelData::GameData::IsSolid(int)”: 已经定义或声明成员函数
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(228,6):
+      参见“Player::LevelData::GameData::IsSolid”的声明
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(236,6): error C2535: “bool Player::LevelData::GameData::IsKeyDown(int)”: 已经定义或声明成员函数
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(229,6):
+      参见“Player::LevelData::GameData::IsKeyDown”的声明
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(266,5): error C2059: 语法错误:“if”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(266,27): error C2238: 意外的标记位于“;”之前
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(267,5): error C2059: 语法错误:“if”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(267,52): error C2238: 意外的标记位于“;”之前
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(268,5): error C2059: 语法错误:“if”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(268,25): error C2238: 意外的标记位于“;”之前
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(269,5): error C2059: 语法错误:“if”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(269,56): error C2238: 意外的标记位于“;”之前
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(271,5): error C2059: 语法错误:“*”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(271,18): error C2238: 意外的标记位于“;”之前
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(272,5): error C2059: 语法错误:“for”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(272,21): error C2143: 语法错误: 缺少“)”(在“;”的前面)
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(272,21): error C2238: 意外的标记位于“;”之前
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(272,25): error C2143: 语法错误: 缺少“;”(在“<=”的前面)
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(272,23): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(272,34): error C2238: 意外的标记位于“;”之前
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(272,37): error C2143: 语法错误: 缺少“;”(在“++”的前面)
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(272,36): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(272,39): error C2059: 语法错误:“)”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(272,41): error C2334: “{”的前面有意外标记；跳过明显的函数体
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(280,1): error C2628: “Player::LevelData::GameData”后面接“void”是非法的(是否忘记了“;”?)
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(477,20): error C2061: 语法错误: 标识符“g”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(477,5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(477,5): warning C4183: “GetPlayerTiles”: 缺少返回类型；假定为返回“int”的成员函数
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(478,5): error C2059: 语法错误:“for”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(478,19): error C2143: 语法错误: 缺少“)”(在“;”的前面)
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(478,19): error C2238: 意外的标记位于“;”之前
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(478,23): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(478,21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(478,30): error C2238: 意外的标记位于“;”之前
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(478,33): error C2143: 语法错误: 缺少“;”(在“++”的前面)
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(478,32): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(478,35): error C2059: 语法错误:“)”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(478,37): error C2334: “{”的前面有意外标记；跳过明显的函数体
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(481,20): error C2061: 语法错误: 标识符“g”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(481,5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(481,5): error C2535: “int Player::LevelData::GetPlayerTiles(void)”: 已经定义或声明成员函数
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(477,5):
+      参见“Player::LevelData::GetPlayerTiles”的声明
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(481,5): warning C4183: “GetPlayerTiles”: 缺少返回类型；假定为返回“int”的成员函数
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(482,5): error C2059: 语法错误:“for”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(482,19): error C2143: 语法错误: 缺少“)”(在“;”的前面)
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(482,19): error C2238: 意外的标记位于“;”之前
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(482,23): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(482,21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(482,30): error C2238: 意外的标记位于“;”之前
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(482,33): error C2143: 语法错误: 缺少“;”(在“++”的前面)
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(482,32): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(482,35): error C2059: 语法错误:“)”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(482,37): error C2334: “{”的前面有意外标记；跳过明显的函数体
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(486,5): error C2059: 语法错误:“if”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(486,34): error C2334: “{”的前面有意外标记；跳过明显的函数体
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(493,1): error C2628: “Player::LevelData”后面接“void”是非法的(是否忘记了“;”?)
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(543,5): error C2059: 语法错误:“if”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(543,35): error C2334: “{”的前面有意外标记；跳过明显的函数体
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(554,5): error C2059: 语法错误:“else”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(554,37): error C2334: “{”的前面有意外标记；跳过明显的函数体
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(557,5): error C2059: 语法错误:“else”
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(557,47): error C2334: “{”的前面有意外标记；跳过明显的函数体
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(565,1): error C2628: “Player”后面接“int”是非法的(是否忘记了“;”?)
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(566,12): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(281,31): error C2065: “g_levelCount”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(281,45): error C2561: “Player::LevelData::LoadLevel”: 函数必须返回值
+      C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(280,6):
+      参见“Player::LevelData::LoadLevel”的声明
+  
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(283,22): error C2065: “g_levels”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(283,20): error C2530: “lvl”: 必须初始化引用
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(284,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(285,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(286,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(287,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(288,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(289,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(295,13): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(300,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(300,43): error C2065: “PLAYER_H”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(301,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(301,16): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(302,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(303,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(304,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(305,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(306,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(307,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(308,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(309,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(310,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(311,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(312,5): error C2065: “g”: 未声明的标识符
+C:\Users\郭亮亮\Desktop\AI工具\AI-product\03-project\ForestIceFire.cpp(312,5): error C1003: 错误计数超过 100；正在停止编译
