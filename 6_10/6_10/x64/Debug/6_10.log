@@ -1,0 +1,13 @@
+﻿  6_10.cpp
+C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\6_10\6_10\6_10.cpp(50,19): error C2373: “r2”: 重定义；不同的类型修饰符
+      C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\6_10\6_10\6_10.cpp(14,11):
+      参见“r2”的声明
+  
+C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\6_10\6_10\6_10.cpp(51,42): error C2088: 内置运算符“<<”无法应用于类型为“std::basic_ostream<char,std::char_traits<char>>”的操作数
+C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\6_10\6_10\6_10.cpp(53,14): error C2371: “r3”: 重定义；不同的基类型
+      C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\6_10\6_10\6_10.cpp(15,10):
+      参见“r3”的声明
+  
+C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\6_10\6_10\6_10.cpp(54,8): error C2297: “+=”: 无效，因为右操作数的类型为“const char [5]”
+C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\6_10\6_10\6_10.cpp(54,8): error C2040: “+=”:“int”与“const char [5]”的间接寻址级别不同
+C:\Users\郭亮亮\Desktop\C语言\C++\c-plus-plus\6_10\6_10\6_10.cpp(55,43): error C2088: 内置运算符“<<”无法应用于类型为“std::basic_ostream<char,std::char_traits<char>>”的操作数
